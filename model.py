@@ -103,9 +103,9 @@ class ColorMap:
     def __init__(self):
         """Creates a label colormap used in PASCAL VOC segmentation benchmark.
 
-             Returns:
-               A Colormap for visualizing segmentation results.
-             """
+         Returns:
+           A Colormap for visualizing segmentation results.
+         """
         self.colormap = np.zeros((256, 3), dtype=int)
         ind = np.arange(256, dtype=int)
 

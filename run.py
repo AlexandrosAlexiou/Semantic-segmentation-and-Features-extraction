@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os
-from segmentation import DeepLabModel, ColorMap, SemanticSegmentation
+from model import SemanticSegmentation
 
 images = [f for f in os.listdir('./images/')
           if os.path.splitext(f)[-1] == '.jpg']  # collect all images from images folder
